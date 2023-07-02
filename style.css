@@ -1,0 +1,390 @@
+/* Fonts */
+@font-face {
+    font-family: 'Shadows Into Light Two';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/shadowsintolighttwo/v13/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpAzHGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Gentium Plus';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/gentiumplus/v1/IurC6Ytw-oSPaZ00r2bNe8VRMLRY50ww.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Special Elite';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Cabin Sketch';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cabinsketch/v19/QGYpz_kZZAGCONcK2A4bGOj8mNhN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Rubik Iso';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/rubikiso/v1/x3dickHUfr-S4VAI4sAxe_oD.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Universal Style */
+body {
+    background-image: url("https://en.wikipedia.org/wiki/File:Fortune_cookies.jpg");
+}
+
+.content, #title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Gentium Plus';
+    font-size: 1.0rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: black;
+}
+
+/* Tablet */
+@media only screen and (max-width: 760px) {
+    p {
+        font-size: 0.9rem;
+    };
+}
+
+/* Header Style */
+#title {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: goldenrod;
+    border: 6px double black;
+}
+
+h1 {
+    font-family: 'Cabin Sketch';
+    font-size: 3.3rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    color: navy;
+}
+
+/* Tablet */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 300px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/*Main Style */
+#intro-box, #msg-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 80%;
+    background-color: #f8f9fa;
+    border: 6px double black;
+}
+
+#intro-box {
+    background-color: midnightblue;
+    border: 6px double cornflowerblue;
+    width: 90%;
+}
+
+#highWord {
+    font-family: 'Cabin Sketch';
+    font-size: 1.8rem;
+    color: yellow;
+}
+
+#lowWord {
+    font-family: 'Rubik Iso';
+    font-size: 1.8rem;
+    color: turquoise;
+}
+
+/* Tablet */
+@media only screen and (max-width: 500px) {
+    #highWord, #lowWord {
+        font-size: 1.3rem;
+    }
+}
+
+/*Message Section Style */
+#msgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+}
+
+#randomMsg p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Special Elite';
+    font-size: 2.5rem;
+    letter-spacing: 0.4rem;
+    padding: 0 1.5rem;
+    max-width: 90%;
+    border: 6px double grey;              /* remove border */
+}
+
+#msg {
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+#msg-box {
+    border: 6px double grey;
+    border-radius: 10px;
+    flex-direction: column;   
+}
+
+#randomMsg, #randomImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    /* width: 50%; */
+    height: 20rem;
+}
+
+#button {
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px; 
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 27px; 
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 66px;
+    width: 282px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#button2 {
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px; 
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 27px; 
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 66px;
+    width: 282px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#buttons:active {
+    background-image: none;
+}
+
+#button:hover {
+    border: 3px solid #dadce0;
+}
+
+/* #button[disabled] {
+    border: 3px solid green;
+    cursor: pointer;
+    background-image: none;
+    background-color: grey;
+    display: inline;
+} */
+
+
+#button2:active {
+    background-image: none;
+}
+
+#button2:hover {
+    border: 3px solid #dadce0;
+}
+
+/* #button2[disabled] {
+    border: 3px solid green;
+    cursor: pointer;
+    background-image: none;
+    background-color: grey;
+    display: inline;
+} */
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media only screen and (max-width: 760px) {
+    #msg-box {
+        width: 70%;
+    }
+
+    #randomMsg p {
+        font-size: 2rem;
+    }
+
+    #randomImg {
+        width: 40%;
+    }
+
+    #randomImg img {
+        max-height: 12rem;
+    }
+
+    #randomMsg, #randomImg {
+        max-height: 12rem;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    #msgContainer {
+        flex-direction: column;
+    }
+    
+    #randomMsg p {
+        font-size: 2.5rem;
+    }
+
+    #randomImg {
+        height: 50%;
+        width: 80%;
+    }
+
+    #randomMsg, #randomImg img {
+        width: 100%;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    #randomMsg p {
+        font-size: 2.1rem;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 450px) {
+    #msg-box {
+        width: 80%;
+    }
+
+    #randomMsg p {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #randomMsg p {
+        font-size: 1.9rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #button {
+        height: 5rem;
+        width: 5rem;
+        border: 9px double purple;
+    }
+
+    #randomMsg p {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    #randomMsg p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #msg-box {
+        width: 90%;
+    }
+
+    #randomMsg p {
+        font-size: 1.4rem;
+    }
+}
+
+/* Banner Style */
+#banner-box, #footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(164, 195, 194);
+    border: 6px double cornflowerblue;   
+}
+
+#banner-box p {
+    font-family: 'Cabin Sketch';
+}
+
+/* Footer Style */
+#footer-box {
+    height: 2rem;
+    background-color: grey;
+    border: none;
+    border: 6px double rgb(173, 181, 195);
+}
+
+#footer-box p {
+    font-size: 1.0rem;
+}
+
+#google {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    align-items: flex;
+    justify-content: flex;
+    margin: auto;
+}
