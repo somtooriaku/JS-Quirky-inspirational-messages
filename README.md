@@ -12,7 +12,7 @@ HTML, CSS, JS, Node.JS
 This is a simple JavaScript program that generates a random positive message using a collection of quotes, affirmations, and words.
 
 ## Installation
-1) No current installation
+1) No current installation, just follow this link [Link](https://somtooriaku.github.io/JS-Quirky-inspirational-messages./).
 
 ## Usage
 1) follow the link and select which ever option you want
