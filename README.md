@@ -1,5 +1,5 @@
 ## Project Description: Quirky / inspirational message generator with a familiar theme.
-This project is about building a message generator program. Each time the user requests for it, the website generates a new randomised inspirational or quirky message. The final message is made up of three different pieces of data, using an object, functions and arrays. The program has been implemented into an interactive responsive website using github pages. [Link](https://somtooriaku.github.io/JS-Quirky-inspirational-messages./). I styled it by taking inspiration from google's classic homepage, but google search and I'm feeling lucky are replaced with "quirky message" and "inspire me".
+This project is about building a message generator program. Each time the user requests for it, the website generates a new randomised inspirational or quirky message. The final message is made up of three different pieces of data, using an object, functions and arrays. The program has been implemented into an interactive responsive website using github pages. [Link](https://somtooriaku.github.io/JS-Quirky-inspirational-messages/). I styled it by taking inspiration from google's classic homepage, but google search and I'm feeling lucky are replaced with "quirky message" and "inspire me".
 
 ## Features
 The program contains a random Random message generator
@@ -12,7 +12,7 @@ HTML, CSS, JS, Node.JS
 This is a simple JavaScript program that generates a random positive message using a collection of quotes, affirmations, and words.
 
 ## Installation
-1) No current installation, just follow this link [Link](https://somtooriaku.github.io/JS-Quirky-inspirational-messages./).
+1) No current installation, just follow this link [Link](https://somtooriaku.github.io/JS-Quirky-inspirational-messages/).
 
 ## Usage
 1) follow the link and select which ever option you want
