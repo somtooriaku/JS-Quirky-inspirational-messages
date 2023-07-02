@@ -1,4 +1,4 @@
-## Project Description: Quirky or inspirational message generator with a familiar theme.
+## Project Description: Quirky / inspirational message generator with a familiar theme.
 This project is about building a message generator program. Each time the user requests for it, the website generates a new randomised inspirational or quirky message. The final message is made up of three different pieces of data, using an object, functions and arrays. The program has been implemented into an interactive responsive website using github pages. [Link](https://somtooriaku.github.io/JS-Quirky-inspirational-messages./). I styled it by taking inspiration from google's classic homepage, but google search and I'm feeling lucky are replaced with "quirky message" and "inspire me".
 
 ## Features
